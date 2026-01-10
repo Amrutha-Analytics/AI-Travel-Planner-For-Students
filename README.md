@@ -79,3 +79,4 @@ Output:
 - Per-day cost
 - Downloadable travel plan
 
+**Author:** Amrutha Ammuloju

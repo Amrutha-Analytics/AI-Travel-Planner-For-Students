@@ -234,4 +234,5 @@ elif st.session_state.page == 4:
         st.rerun()
     if col2.button("🏠 Exit "):
         st.session_state.page = 1
+
         st.rerun() 

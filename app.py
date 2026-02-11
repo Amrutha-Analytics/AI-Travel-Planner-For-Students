@@ -128,8 +128,8 @@ elif st.session_state.page == 3:
     st.markdown(f"""
     <div class="card center">
         <h2>Total Budget</h2>
-        <h1 style="color:#FF6B6B;">$ {total_budget:,.2f}</h1>
-        <p><b>{days}</b> days • <b>$ {per_day:,.2f}</b> per day</p>
+        <h1 style="color:#FF6B6B;">₹ {total_budget:,.2f}</h1>
+        <p><b>{days}</b> days • <b>₹ {per_day:,.2f}</b> per day</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -236,3 +236,4 @@ elif st.session_state.page == 4:
         st.session_state.page = 1
 
         st.rerun() 
+
